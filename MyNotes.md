@@ -146,6 +146,8 @@ start .                      # Open current directory (Windows)
 **Git Operations:**
 
 ```bash
+git --version                # Check Git version
+git init                     # Initialize a new Git repository
 git status                   # Check repository status
 git add .                    # Add all changes to staging
 git commit -m "Your message" # Commit with message
@@ -164,6 +166,19 @@ rm text.txt                             # Remove single file
 rm text.txt test.py app.java            # Remove multiple files
 rm -rf foldername                       # Remove directory and contents
 ```
+
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+
+## 📁 Git Repository Basics
+
+**Repository (Repo):** A Git repository is a directory that contains your project files and the entire history of changes made to those files.
+
+**Key Points:**
+
+- 📂 Every project that uses Git needs a **Git repository**
+- 🎯 Use `git init` to create a new repository in any project folder
+- 📊 The repository tracks all file changes and maintains version history
+- 🔄 One repository per project is the standard practice
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
