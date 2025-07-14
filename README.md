@@ -10,7 +10,7 @@
 
 **Description:** This bootcamp covers everything from <span style="color: #8A2BE2;">**Git essentials**</span> to <span style="color: #8A2BE2;">**advanced collaboration workflows**</span>, preparing me for real-world development scenarios.
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📚 Course Units & Topics Covered
 
@@ -48,7 +48,7 @@
 **Legend:**
  ✅ = Completed | 🔄 = In Progress | ❌ = Not Started
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📁 Repository Structure
 
@@ -58,7 +58,7 @@
 ├── 📄 MyNotes.md – Personal notes and insights
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Key Learning Objectives
 
@@ -72,7 +72,7 @@
 - **Host static or dynamic websites** using GitHub Pages.
 - **Write professional documentation** with Markdown.
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 💡 What I'm Building
 
@@ -81,13 +81,13 @@
 - **Comprehensive Git Reference** with personal notes and examples
 - **Open Source Contributions** to practice professional development
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🧠 Goal
 
 > Master <span style="color: #8A2BE2;">**Git and GitHub**</span> to become confident in **version control**, **collaboration workflows**, and **professional development practices** used in the tech industry.
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📌 Notes
 
@@ -96,7 +96,7 @@
 - This repository serves as a **comprehensive reference** for Git and GitHub workflows
 - **Best practices** and **industry standards** are emphasized in every lesson
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔗 Useful Resources
 
@@ -105,7 +105,7 @@
 - [Interactive Git Tutorial](https://learngitbranching.js.org/)
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > Git is not just about version control, it's about **collaboration**, **confidence**, and **professional growth**.  
 > <span style="color: #8A2BE2;">**Let's Git it done! 🚀**</span>

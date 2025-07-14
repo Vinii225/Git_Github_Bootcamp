@@ -1,0 +1,17 @@
+
+<svg width="100%" height="4" viewBox="0 0 100 4" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="purple-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop id="stop1" offset="0%" stop-color="#a259ff">
+        <animate attributeName="offset" values="0;1" dur="2s" repeatCount="indefinite"/>
+      </stop>
+      <stop id="stop2" offset="50%" stop-color="#6a11cb">
+        <animate attributeName="offset" values="0.5;1.5" dur="2s" repeatCount="indefinite"/>
+      </stop>
+      <stop id="stop3" offset="100%" stop-color="#a259ff">
+        <animate attributeName="offset" values="1;2" dur="2s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="100" height="4" fill="url(#purple-gradient)" />
+</svg>

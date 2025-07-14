@@ -4,7 +4,7 @@
 
 📅 **Updated:** July 13, 2025
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 What is Git?
 
@@ -23,7 +23,7 @@ In **2005**, **Linus Torvalds** (creator of Linux) became frustrated with availa
 
 He wanted a version control system that was **fast**, **free**, and **powerful**, so he created Git!
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 👥 Who Uses Git?
 
@@ -44,7 +44,7 @@ Git is used across **all industries** and **all skill levels**:
 - **Universities:** Research teams collaborating on projects
 - **Open Source Communities:** Contributing to global projects
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🐙 GitHub vs Git
 
@@ -59,7 +59,7 @@ Git is used across **all industries** and **all skill levels**:
 - 🌐 **Web interface** for Git operations
 - 📊 **Additional features:** Issues, pull requests, project management
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## ⚔️ Command Line vs GUI Tools
 
@@ -90,7 +90,7 @@ Git is used across **all industries** and **all skill levels**:
 - **Limited Troubleshooting:** When things go wrong, hard to debug
 - **Hidden Complexity:** "Magic" operations obscure Git's inner workings
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🖥️ Git Bash
 
@@ -100,7 +100,7 @@ Git is used across **all industries** and **all skill levels**:
 - 📁 **File navigation** and management
 - 🔧 **Scripting capabilities**
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## ⚙️ Basic Configuration
 
@@ -124,7 +124,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@gmail.com"
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔧 Basic Commands
 
@@ -165,7 +165,7 @@ rm text.txt test.py app.java            # Remove multiple files
 rm -rf foldername                       # Remove directory and contents
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📚 Key Reminders
 
@@ -177,6 +177,6 @@ rm -rf foldername                       # Remove directory and contents
 - ✅ **Practice command line** for better understanding
 - ✅ **Backup important work** with regular pushes
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Remember:** Git is not just about storing code, it's about **collaboration**, **history tracking**, and **professional development workflows**! 🚀
