@@ -102,164 +102,67 @@ Git is used across **all industries** and **all skill levels**:
 
 <img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
 
-## 🔧 Essential Git Commands
+## ⚙️ Basic Configuration
 
-### Repository Setup
+**Git Log** - Get information about all commits:
+
 ```bash
-git init                    # Initialize new repository
-git clone <url>            # Clone remote repository
-git status                 # Check repository status
+git log
 ```
 
-### Basic Workflow
+**Check Configuration:**
+
 ```bash
-git add <file>             # Stage specific file
-git add .                  # Stage all changes
-git commit -m "message"    # Commit with message
-git push                   # Push to remote repository
-git pull                   # Pull latest changes
+git config user.name    # Check if you have a name registered
+git config user.email   # Check if you have an email registered
 ```
 
-### Branching
-```bash
-git branch                 # List branches
-git branch <name>          # Create new branch
-git checkout <branch>      # Switch to branch
-git merge <branch>         # Merge branch
-```
+**Set Global Configuration:**
 
-### Information & History
 ```bash
-git log                    # View commit history
-git log --oneline          # Compact history view
-git diff                   # Show changes
-git show <commit>          # Show specific commit
+git config --global user.name "Your Name"
+git config --global user.email "your.email@gmail.com"
 ```
 
 <img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
 
-## 📊 Git Workflow Concepts
+## 🔧 Basic Commands
 
-### 🗂️ **Three Areas**
-1. **Working Directory** - Your current files
-2. **Staging Area** - Files ready to commit
-3. **Repository** - Committed file history
+**File Navigation:**
 
-### 🌳 **Branching Strategy**
-```
-main branch    ──●──●──●──●──
-                  └─●─●─┘   feature branch
-```
-
-### 🔄 **Basic Workflow**
-```
-1. Modify files (Working Directory)
-2. Stage changes (git add)
-3. Commit changes (git commit)
-4. Push to remote (git push)
-```
-
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
-
-## 🤝 Collaboration Concepts
-
-### **Pull Requests**
-- 📝 **Propose changes** to main codebase
-- 👀 **Code review** process
-- 🔍 **Discussion** and feedback
-- ✅ **Approval** before merging
-
-### **Fork & Clone Workflow**
-1. **Fork** repository to your account
-2. **Clone** your fork locally
-3. **Make changes** and commit
-4. **Push** to your fork
-5. **Create pull request** to original repository
-
-### **Merge Conflicts**
-- ⚠️ Occur when same lines are modified
-- 🛠️ Require manual resolution
-- 📝 Edit conflicted files
-- ✅ Mark as resolved and commit
-
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
-
-## 💡 Best Practices
-
-### ✅ **Commit Messages**
 ```bash
-# Good examples
-git commit -m "Add user authentication feature"
-git commit -m "Fix memory leak in data processor"
-git commit -m "Update README with installation instructions"
-
-# Bad examples
-git commit -m "stuff"
-git commit -m "fix bug"
-git commit -m "changes"
+ls                           # List files and directories
+ls -a                        # List all files (including hidden)
+ls folder                    # List contents of specific folder
+cd                           # Change directory
+cd folder                    # Navigate to specific folder
+cd ..                        # Go back one directory
+pwd                          # Print working directory
+clear                        # Clear terminal screen
+open .                       # Open current directory (macOS)
+start .                      # Open current directory (Windows)
 ```
 
-### ✅ **Repository Organization**
-- Use clear **folder structure**
-- Include comprehensive **README.md**
-- Add **.gitignore** for unnecessary files
-- Use **meaningful branch names**
+**Git Operations:**
 
-### ✅ **Collaboration Etiquette**
-- **Review** pull requests thoroughly
-- **Test** changes before committing
-- **Communicate** clearly in commits and PRs
-- **Stay updated** with main branch regularly
-
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
-
-## 🆘 Common Issues & Solutions
-
-### **Merge Conflicts**
 ```bash
-# When conflicts occur:
-1. Open conflicted files
-2. Look for conflict markers (<<<<, ====, >>>>)
-3. Choose which changes to keep
-4. Remove conflict markers
-5. git add <resolved-file>
-6. git commit
+git status                   # Check repository status
+git add .                    # Add all changes to staging
+git commit -m "Your message" # Commit with message
+git log                      # View commit history
 ```
 
-### **Undo Changes**
+**File & Directory Management:**
+
 ```bash
-git restore <file>         # Undo working directory changes
-git reset HEAD~1           # Undo last commit (keep changes)
-git revert <commit>        # Create new commit that undoes changes
-```
-
-### **Lost Commits**
-```bash
-git reflog                 # Show all Git operations
-git checkout <commit-hash> # Recover "lost" commit
-```
-
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
-
-## 🚀 Advanced Concepts (Preview)
-
-### **Git Stash**
-```bash
-git stash                  # Temporarily save changes
-git stash pop              # Restore stashed changes
-git stash list             # Show all stashes
-```
-
-### **Interactive Rebase**
-```bash
-git rebase -i HEAD~3       # Edit last 3 commits
-# Options: pick, squash, edit, drop
-```
-
-### **Git Tags**
-```bash
-git tag v1.0.0             # Create lightweight tag
-git tag -a v1.0.0 -m "Release version 1.0.0"  # Annotated tag
+touch text.txt                           # Create single file
+touch test.py app.java archive.pdf       # Create multiple files
+touch Documents/documentation.docx       # Create file in specific path
+mkdir Folder                             # Create single directory
+mkdir car bikes                          # Create multiple directories
+rm text.txt                             # Remove single file
+rm text.txt test.py app.java            # Remove multiple files
+rm -rf foldername                       # Remove directory and contents
 ```
 
 <img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
