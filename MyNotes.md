@@ -191,6 +191,7 @@ rm -rf foldername                       # Remove directory and contents
 - ✅ **Keep repositories organized** and documented
 - ✅ **Practice command line** for better understanding
 - ✅ **Backup important work** with regular pushes
+- ⚠️ **Check with `git status`** to verify you're not initializing Git inside an existing repository
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
