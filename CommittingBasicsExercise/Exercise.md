@@ -104,7 +104,7 @@ This exercise focuses on mastering the basics of Git commits by creating and man
 1. **Use a Git command to display a list of the commits. You should see 4!**
 
     ```bash
-    git log --oneline
+    git log 
     ```
 
 <img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
@@ -117,20 +117,6 @@ After completing this exercise, you should have:
 - 📄 **2 files** (`yard.txt` and `groceries.txt`) with content
 - 🎯 **Experience** with selective staging and committing
 - 📝 **Practice** writing descriptive commit messages
-
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## 🔧 Key Commands Used
-
-```bash
-git init                                          # Initialize repository
-git add filename.txt                             # Add specific file to staging
-git add .                                        # Add all changes to staging
-git commit -m "descriptive message"             # Commit with message
-git log                                          # View commit history
-git log --oneline                               # View compact commit history
-git status                                       # Check repository status
-```
 
 <img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
