@@ -14,36 +14,88 @@
 
 ## 📚 Course Units & Topics Covered
 
-### 🎯 **Unit 1: Git Essentials**
-- ✅ **Version control introduction** (What is Git, why it matters)
-- ✅ **Git installation and setup**
-- ✅ **Unix commands for Git** (Terminal basics)
-- 🔄 **Core Git mechanics** (Working directory, repository, staging area) ← <span style="color: #8A2BE2;">*Currently Learning*</span>
-- 🔄 **Essential Git commands** (`git init`, `git add`, `git commit`, `git status`, `git log`) ← <span style="color: #8A2BE2;">*Currently Learning*</span>
-- ❌ **Branching and merging** (`git branch`, `git merge`)
+### 🎯 **1. Course Orientation**
+- ✅ **Course overview and goals** (6 lessons • 13m)
+
+### 🚀 **2. Introducing...Git!**
+- ✅ **What is Git and why use it** (6 lessons • 26m)
+
+### ⚙️ **3. Installation & Setup**
+- ✅ **Git installation across platforms** (11 lessons • 1h)
+
+### 📦 **4. The Very Basics Of Git: Adding & Committing**
+- ✅ **Repository initialization** (`git init`)
+- ✅ **Staging and committing** (`git add`, `git commit`)
+- ✅ **Repository status** (`git status`) 
+- ✅ **Commit history** (`git log`) ← <span style="color: #8A2BE2;">*10 lessons • 51m*</span>
+
+### � **5. Commits In Detail (And Related Topics)**
+- ✅ **Atomic commits and best practices**
+- ✅ **Commit messages guidelines**
+- ✅ **Amending commits** (`git commit --amend`)
+- ✅ **Ignoring files** (`.gitignore`) ← <span style="color: #8A2BE2;">*9 lessons • 51m*</span>
+
+### 🌿 **6. Working With Branches**
+- ✅ **Understanding branches and HEAD** 
+- ✅ **Creating,switching and deleting branches**  ← <span style="color: #8A2BE2;">*12 lessons • 1h*</span>
+
+### 🔀 **7. Merging Branches, Oh Boy!**
+- ❌ **Fast-forward vs. merge commits**
 - ❌ **Resolving merge conflicts**
+- ❌ **Merge strategies** ← <span style="color: #8A2BE2;">*9 lessons • 56m*</span>
 
-### 🔥 **Unit 2: Next Level Git**
-- ❌ **Git diff command** (Comparing commits, branches, working directory)
-- ❌ **Git stashing** (`git stash` workflow)
-- ❌ **Undoing changes and time traveling** (`git checkout`, `git restore`, `git reset`, `git revert`)
-- ❌ **Detaching and re-attaching HEAD**
+### � **8. Comparing Changes With Git Diff**
+- ❌ **Working directory vs. staging vs. commits**
+- ❌ **Comparing branches and commits** ← <span style="color: #8A2BE2;">*11 lessons • 53m*</span>
 
-### 🤝 **Unit 3: GitHub & Collaboration**
-- ❌ **Remote repositories** (GitHub introduction)
-- ❌ **Syncing repositories** (`git push`, `git pull`, `git fetch`)
-- ❌ **Collaboration workflows** (Feature branching, pull requests)
-- ❌ **Fork & clone workflow**
-- ❌ **Contributing to open source projects**
-- ❌ **GitHub features** (Gists, Pages for static hosting)
-- ❌ **Markdown READMEs**
+### 💾 **9. The Ins and Outs of Stashing**
+- ❌ **Stashing workflow** (`git stash`)
+- ❌ **Stash management and application** ← <span style="color: #8A2BE2;">*8 lessons • 35m*</span>
 
-### 🧠 **Unit 4: The Tricky Bits**
-- ❌ **Git rebasing** (Interactive rebase, squashing commits)
-- ❌ **Git tags** (Lightweight and annotated tags, semantic versioning)
-- ❌ **Git internals** (Hashing functions, Git objects: blobs, trees, commits)
-- ❌ **Git reflogs** (`git reflog` for rescuing lost commits)
-- ❌ **Custom Git aliases** (Writing powerful shortcuts)
+### ⏰ **10. Undoing Changes & Time Traveling**
+- ❌ **Checkout, restore, reset, revert**
+- ❌ **Detached HEAD state** ← <span style="color: #8A2BE2;">*10 lessons • 59m*</span>
+
+### 🐙 **11. Github: The Basics**
+- ❌ **GitHub account and repositories**
+- ❌ **Remote repositories basics** ← <span style="color: #8A2BE2;">*16 lessons • 1h 33m*</span>
+
+### 🔄 **12. Fetching & Pulling**
+- ❌ **Remote tracking and synchronization**
+- ❌ **Fetch vs. pull workflows** ← <span style="color: #8A2BE2;">*9 lessons • 54m*</span>
+
+### 🎒 **13. Github Grab Bag: Odds & Ends**
+- ❌ **GitHub features and tools**
+- ❌ **Issues, Gists, and Pages** ← <span style="color: #8A2BE2;">*10 lessons • 56m*</span>
+
+### 🤝 **14. Git Collaboration Workflows**
+- ❌ **Feature branch workflow**
+- ❌ **Fork and pull request workflow**
+- ❌ **Team collaboration strategies** ← <span style="color: #8A2BE2;">*14 lessons • 1h 47m*</span>
+
+### 😰 **15. Rebasing: The Scariest Git Command?**
+- ❌ **Interactive rebasing**
+- ❌ **Rewriting history safely** ← <span style="color: #8A2BE2;">*7 lessons • 40m*</span>
+
+### � **16. Cleaning Up History With Interactive Rebase**
+- ❌ **Squashing and editing commits**
+- ❌ **History cleanup strategies** ← <span style="color: #8A2BE2;">*5 lessons • 26m*</span>
+
+### 🏷️ **17. Git Tags: Marking Important Moments In History**
+- ❌ **Lightweight vs. annotated tags**
+- ❌ **Semantic versioning** ← <span style="color: #8A2BE2;">*11 lessons • 36m*</span>
+
+### 🔍 **18. Git Behind The Scenes - Hashing & Objects**
+- ❌ **Git internals and object model**
+- ❌ **Hashing functions and data structures** ← <span style="color: #8A2BE2;">*12 lessons • 1h 19m*</span>
+
+### 🔮 **19. The Power of Reflogs - Retrieving "Lost" Work**
+- ❌ **Understanding reflogs** (`git reflog`)
+- ❌ **Recovering lost commits** ← <span style="color: #8A2BE2;">*8 lessons • 44m*</span>
+
+### ⚡ **20. Writing Custom Git Aliases**
+- ❌ **Creating shortcuts and custom commands**
+- ❌ **Advanced alias techniques** ← <span style="color: #8A2BE2;">*6 lessons • 20m*</span>
 
 **Legend:**
  ✅ = Completed | 🔄 = In Progress | ❌ = Not Started
