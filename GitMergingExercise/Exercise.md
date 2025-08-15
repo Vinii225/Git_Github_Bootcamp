@@ -99,7 +99,3 @@ git commit                    # Complete the merge
 - ✅ **Part 1:** `git log --oneline` shows linear history (no merge commit)
 - ✅ **Part 2:** `git log --oneline` shows a merge commit with two parent commits
 - ✅ **Part 3:** You successfully resolve conflicts and complete the merge
-
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-> **Remember:** Practice makes perfect! Try different scenarios and file types to fully understand Git merging workflows! 🚀
