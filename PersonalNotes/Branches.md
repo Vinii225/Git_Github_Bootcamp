@@ -1,150 +1,13 @@
-# 📝 Git Advanced Concepts & Best Practices
+# 🌿 Git Branches & Advanced Workflows
 
-> **Extended learning notes** - Advanced Git features and professional workflows
+> **Extended learning notes** - Git branching, merging, and advanced branch management
 
-📅 **Updated:** August 12, 2025
+📅 **Updated:** August 15, 2025
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## 📚 Git Documentation
-
-🔗 **Official Git Documentation:** [https://git-scm.com/docs](https://git-scm.com/docs)
 
 <img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ⚛️ Atomic Commits
-
-**Definition:** Keep each commit focused on a single thing.
-
-**Benefits:**
-
-- 🎯 **Clear purpose** - Each commit has one specific goal
-- 🔍 **Easy to review** - Changes are logical and contained
-- 🔄 **Simple to revert** - If issues arise, you can undo specific changes
-- 📖 **Better history** - Project evolution is easier to understand
-
-**Best Practice:**
-
-```bash
-# Good - Single focused change
-git commit -m "fix: resolve login validation bug"
-
-# Bad - Multiple unrelated changes
-git commit -m "fix login, update styles, add new feature"
-```
-
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## 📊 Compact Commit History
-
-**View condensed commit log:**
-
-```bash
-git log --oneline
-```
-
-This command shows each commit on a single line with just the commit hash and message.
-
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## ✏️ Amending Commits
-
-**Scenario:** You just made a commit and realized you forgot to include a file.
-
-**Instead of creating a separate commit:**
-
-```bash
-git commit -m "some commit"
-# Oops! Forgot to include a file
-git add forgotten_file
-git commit --amend
-```
-
-**What `--amend` does:**
-
-- 🔄 **Replaces** the previous commit entirely
-- 📝 **Updates** the commit message (if needed)
-- ➕ **Includes** new staged changes
-- ⚠️ **Warning:** Only use on commits that haven't been pushed!
-
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## 💬 Commit Message Best Practices
-
-**Present Tense vs Past Tense in `git commit -m ""`**
-
-**Recommended:** Use **present tense** (imperative mood)
-
-```bash
-# ✅ Good - Present tense/Imperative
-git commit -m "add user authentication feature"
-git commit -m "fix navbar responsiveness issue"
-git commit -m "update README with installation steps"
-
-# ❌ Avoid - Past tense
-git commit -m "added user authentication feature"
-git commit -m "fixed navbar responsiveness issue"
-```
-
-**Why present tense?**
-
-- 📏 **Consistency** with Git's own commit messages
-- 🎯 **Describes what the commit does** when applied
-- 🌍 **Industry standard** followed by most projects
-
-⚠️ **Observation:** if the company uses **Past Tense**, use it!
-
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## 🚫 Ignoring Files
-
-**Purpose:** Tell Git which files and directories to ignore in a repository using a `.gitignore` file.
-
-**Common files to ignore:**
-
-- 🔐 **Secrets, API Keys, credentials** - Never commit sensitive information
-- 💻 **Operating System files** - `.DS_Store` (macOS), `Thumbs.db` (Windows)
-- 📋 **Log files** - Application logs, error logs
-- 📦 **Dependencies and packages** - `node_modules/`, `vendor/`, `__pycache__/`
-
-**Example `.gitignore` file:**
-
-```gitignore
-# Secrets and credentials
-.env
-config/secrets.yml
-*.key
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Dependencies
-node_modules/
-vendor/
-__pycache__/
-
-# Logs
-*.log
-logs/
-```
-
-**Helpful Tool:**
-🌐 **Create `.gitignore` for your project:** [gitignore.io](https://gitignore.io)
-
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## 🔧 Key Commands Summary
-
-```bash
-git log --oneline                    # View compact commit history
-git commit --amend                   # Modify the most recent commit
-git add .gitignore                   # Add gitignore file to repository
-```
-
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## 🌿 Branches & HEAD in Git
+##  Branches & HEAD in Git
 
 ### What is a Branch?
 
@@ -161,42 +24,26 @@ A **branch** in Git is a lightweight movable pointer to a commit. Branches let y
 - 🎯 **HEAD** tells Git where you are working.
 - 🔀 When you switch branches, HEAD moves to point to the new branch.
 
-### 🔧 Common Branch Commands
+<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-**Create a new branch:**
+### 🔧 Essential Branch Commands
+
+**Create and switch to a new branch:**
 ```bash
-git branch feature-branch
+git switch -c feature-branch      # Create and switch (recommended)
+git checkout -b feature-branch    # Alternative (older method)
 ```
 
-**Switch to a branch:**
+**Switch between branches:**
 ```bash
-git checkout feature-branch
+git switch main                   # Switch to main branch
+git switch feature-branch         # Switch to feature branch
 ```
 
-**Create and switch in one step (recommended):**
+**List and check branches:**
 ```bash
-git checkout -b feature-branch
-```
-
-**List all branches:**
-```bash
-git branch
-```
-
-**See which branch HEAD is on:**
-```bash
-git status
-```
-
-**Switch back to main branch:**
-```bash
-git checkout main
-```
-
-> **Tip:** In newer versions of Git, you can use `git switch` instead of `git checkout` for changing branches:
-```bash
-git switch feature-branch         # Switch to branch
-git switch -c new-branch          # Create and switch to new branch
+git branch                        # List all branches
+git status                        # See current branch and status
 ```
 
 **Visual Example:**
@@ -204,20 +51,7 @@ git switch -c new-branch          # Create and switch to new branch
 - `main` ← HEAD (current branch)
 - `feature-branch` (another branch)
 
-When you run `git checkout feature-branch`, HEAD moves to point to `feature-branch`.
-
-### ⚡ Advanced Commit Options
-
-**Commit with automatic staging:**
-
-```bash
-git commit -a -m "your commit message"
-```
-
-**What `-a` flag does:**
-- 🔄 **Automatically stages** all modified tracked files
-- ⏭️ **Skips** the `git add` step for existing files
-- ⚠️ **Note:** Only works with files already tracked by Git (not new files)
+When you run `git switch feature-branch`, HEAD moves to point to `feature-branch`.
 
 <img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
@@ -289,5 +123,84 @@ git branch -m old-feature new-feature # Rename specific branch
 
 <img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
+## 🔀 Merging Branches
 
-> **Remember:** These advanced Git concepts help maintain **clean history**, **professional workflows**, and **secure repositories**! 🚀
+### What is Merging?
+
+**Merging** is the process of incorporating changes from one branch into another. When working on features in separate branches, you can merge to bring those changes back to the main branch.
+
+**Key Points:**
+- 🌿 **We merge branches**, not specific commits
+- 🎯 **We always merge TO the current HEAD branch**
+- 🔄 **Switch to the target branch first**, then merge the source branch
+
+### Basic Merge Workflow
+
+**Step-by-step process:**
+
+```bash
+git switch main               # Switch to target branch (usually main)
+git merge feature-branch      # Merge the feature branch into main
+```
+
+<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+
+## ⚡ Types of Merges
+
+### 🚀 Fast-Forward Merge
+
+When the target branch hasn't diverged from the feature branch, Git can simply move the pointer forward.
+
+**Characteristics:**
+- 📈 **Linear history** - No merge commit created
+- 🎯 **Simple** - Just moves the branch pointer
+- ✅ **Clean** - Maintains a straight line of commits
+
+### 🔀 Merge Commits
+
+When both branches have new commits, Git creates a special merge commit that combines the changes.
+
+**Characteristics:**
+- 🌊 **Non-linear history** - Creates a merge commit
+- 🔗 **Preserves context** - Shows where branches merged
+- 📊 **Two parents** - Merge commit has multiple parent commits
+
+<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+
+## ⚠️ Merge Conflicts
+
+### What are Merge Conflicts?
+
+**Merge conflicts** occur when Git cannot automatically merge changes because the same lines were modified differently in both branches.
+
+### When Conflicts Happen
+
+- 📝 **Same file, same lines** modified differently
+- 🔄 **Different changes** to the same content
+- 🤝 **Manual resolution** required
+
+### Resolving Merge Conflicts
+
+**Step-by-step resolution:**
+
+1. **Git warns you** in the console that it couldn't automatically merge
+2. **Open the conflicted file(s)** - Git marks the conflicts
+3. **Edit the file** to resolve conflicts:
+   - Choose which version to keep
+   - Or combine content from both branches
+   - Remove the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
+4. **Stage the resolved files** with `git add`
+5. **Complete the merge** with `git commit`
+
+**Example conflict markers:**
+```text
+<<<<<<< HEAD
+Current branch content
+=======
+Feature branch content
+>>>>>>> feature-branch
+```
+
+<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+
+> **Remember:** Branching and merging are fundamental Git skills that enable **parallel development**, **feature isolation**, and **collaborative workflows**! 🚀
