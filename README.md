@@ -40,9 +40,9 @@
 - ✅ **Creating,switching and deleting branches**  ← <span style="color: #8A2BE2;">*12 lessons • 1h*</span>
 
 ### 🔀 **7. Merging Branches, Oh Boy!**
-- ❌ **Fast-forward vs. merge commits**
-- ❌ **Resolving merge conflicts**
-- ❌ **Merge strategies** ← <span style="color: #8A2BE2;">*9 lessons • 56m*</span>
+- ✅ **Fast-forward vs. merge commits**
+- ✅ **Resolving merge conflicts**
+- ✅ **Merge strategies** ← <span style="color: #8A2BE2;">*9 lessons • 56m*</span>
 
 ### � **8. Comparing Changes With Git Diff**
 - ❌ **Working directory vs. staging vs. commits**
