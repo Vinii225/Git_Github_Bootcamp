@@ -5,7 +5,7 @@
 📅 **Date:** August 15, 2025  
 🎯 **Objective:** Practice different Git merge scenarios with real examples
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## ⚡ Part 1: Fast-Forward Merge
 
@@ -59,7 +59,7 @@ Fast-forward                    # ← FAST-FORWARD MERGE SUCCESS! ⚡
 
 ### ✅ **Result:** Fast-Forward merge completed - no merge commit created!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔗 Part 2: Setting Up for Merge Conflict
 
@@ -100,7 +100,7 @@ To https://github.com/Vinii225/Git-Github_Bootcamp
    6100907..3c50c84  main -> main
 ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## ⚠️ Part 3: Merge Conflict Resolution
 
@@ -144,7 +144,7 @@ git add GitMergingExercise/Musics/rock.txt
 git commit -m "Resolve merge conflict in rock.txt"
 ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Exercise Summary
 
@@ -159,6 +159,6 @@ git commit -m "Resolve merge conflict in rock.txt"
 - **Merge conflicts** occur when same lines are modified differently
 - **Conflict resolution** requires manual editing and staging
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Next Step:** Resolve the merge conflict by editing the rock.txt file and completing the merge! 🚀

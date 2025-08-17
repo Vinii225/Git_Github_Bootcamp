@@ -5,7 +5,7 @@
 📅 **Date:** August 15, 2025  
 🎯 **Objective:** Master Git diff commands through practical scenarios with Queen and Fleetwood Mac band lineups
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📝 Exercise Overview
 
@@ -15,7 +15,7 @@ This exercise uses a **starter repository** containing band lineup information a
 - **Queen** - Various lineups over the years
 - **Fleetwood Mac** - Different band members across decades
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🚀 Part 1: Repository Setup
 
@@ -54,7 +54,7 @@ git branch
 - **`queen.txt`** - Queen band member information
 - **`fleetwoodmac.txt`** - Fleetwood Mac member information
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔍 Part 2: Git Diff Practice
 
@@ -152,7 +152,7 @@ git diff HEAD
 
 **Expected:** See both `queen.txt` (staged) and `fleetwoodmac.txt` (unstaged) changes.
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Success Criteria
 
@@ -165,7 +165,7 @@ git diff HEAD
 - ✅ **Staged diff** shows only Queen changes
 - ✅ **HEAD diff** shows both staged and unstaged modifications
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 💡 Key Learning Outcomes
 
@@ -188,6 +188,6 @@ git diff HEAD                         # Show all changes since last commit
 - **📋 Staging workflow** - Distinguishing staged vs unstaged changes
 - **🎯 Working directory states** - Managing different change types
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Remember:** Git diff is essential for **code review**, **debugging**, and **understanding project evolution**. Practice these commands regularly! 🎸

@@ -5,7 +5,7 @@
 📅 **Date:** August 17, 2025  
 🎯 **Objective:** Master Git stash commands through a dramatic workplace scenario
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📝 Exercise Overview
 
@@ -13,7 +13,7 @@ This exercise demonstrates the **power of Git stash** through a humorous workpla
 
 **🎭 Scenario:** You're working on your honest thoughts when your boss unexpectedly approaches. Use Git stash to quickly hide your work and maintain your professional image!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🚀 Part 1: Repository Setup
 
@@ -44,7 +44,7 @@ git commit -m "Add initial diary entry"
 
 **✅ Status:** Repository initialized with professional diary entry on `main` branch.
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🌿 Part 2: Branch Creation & Truth Telling
 
@@ -73,7 +73,7 @@ Save your changes but **DO NOT COMMIT YET!**
 
 **⚠️ Critical moment:** Your work is saved but uncommitted - perfect stash scenario!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🚨 Part 3: Emergency Context Switch
 
@@ -107,7 +107,7 @@ I love my boss
 
 **🎭 Success:** Your professional image is preserved!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 😇 Part 4: Playing the Part
 
@@ -131,7 +131,7 @@ git commit -m "Add more positive thoughts about management"
 
 **🎯 Boss Status:** Impressed with your dedication and positive attitude!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🕵️ Part 5: Return to Truth
 
@@ -163,7 +163,7 @@ git add diary.txt
 git commit -m "Document true feelings about management"
 ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Exercise Validation
 
@@ -190,7 +190,7 @@ git stash list
 - ✅ **Stash list:** Empty (stash was popped)
 - ✅ **File contents:** Different on each branch
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 💡 Key Learning Outcomes
 
@@ -219,6 +219,6 @@ This scenario mirrors real development situations:
 - **Meetings interrupting** active development
 - **Experimental work** that needs temporary hiding
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Congratulations!** You've mastered Git stash through workplace drama. These skills are essential for **professional development workflows** and **emergency context switching**! 🎭

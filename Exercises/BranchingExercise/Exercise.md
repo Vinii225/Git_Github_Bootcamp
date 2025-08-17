@@ -4,7 +4,7 @@
 
 📅 **Exercise Date:** August 12, 2025
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Exercise Overview
 
@@ -16,7 +16,7 @@ This exercise focuses on mastering Git branching by creating different Patronus 
 - 👀 Viewing branch lists
 - 🗑️ Deleting branches
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📋 Step-by-Step Instructions
 
@@ -30,7 +30,7 @@ This exercise focuses on mastering Git branching by creating different Patronus 
    git commit -m "add empty patronus file"
    ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 🌿 **Step 5-6: Creating Branches**
 
@@ -45,7 +45,7 @@ This exercise focuses on mastering Git branching by creating different Patronus 
    git switch harry
    ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 🦌 **Step 7-8: Harry's Stag Patronus**
 
@@ -85,7 +85,7 @@ This exercise focuses on mastering Git branching by creating different Patronus 
    git commit -m "add harry's stag patronus"
    ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 🦌 **Step 9-11: Snape's Doe Patronus**
 
@@ -120,7 +120,7 @@ This exercise focuses on mastering Git branching by creating different Patronus 
     git commit -m "add snape's doe patronus"
     ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 🌸 **Step 12-15: Lily's Doe Patronus**
 
@@ -141,7 +141,7 @@ This exercise focuses on mastering Git branching by creating different Patronus 
     git commit -m "add lily's doe patronus"
     ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 📊 **Step 16-17: Branch Management**
 
@@ -155,7 +155,7 @@ This exercise focuses on mastering Git branching by creating different Patronus 
     git branch -d snape
     ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## ✅ Expected Results
 
@@ -166,7 +166,7 @@ After completing this exercise, you should have:
 - 📝 **Practice** with branch-specific commits
 - 🗑️ **Knowledge** of branch deletion
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔧 Key Commands Used
 
@@ -180,6 +180,6 @@ git branch -D branch-name                    # Delete branch (force)
 git commit -m "message"                      # Commit with message
 ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Remember:** This exercise demonstrates **branch isolation** - each branch maintains its own version of files independently! ⚡✨

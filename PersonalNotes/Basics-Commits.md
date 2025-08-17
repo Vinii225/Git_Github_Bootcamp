@@ -124,7 +124,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@gmail.com"
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔧 Basic Commands
 

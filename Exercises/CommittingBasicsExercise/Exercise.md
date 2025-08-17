@@ -4,7 +4,7 @@
 
 📅 **Exercise Date:** July 31, 2025
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Exercise Overview
 
@@ -16,7 +16,7 @@ This exercise focuses on mastering the basics of Git commits by creating and man
 - 💬 Writing meaningful commit messages
 - 📊 Viewing commit history
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📋 Step-by-Step Instructions
 
@@ -27,7 +27,7 @@ This exercise focuses on mastering the basics of Git commits by creating and man
 
 > ⚠️ **Observation:** Not doing because I am already in a repo
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 📝 **Step 3-5: Initial File Creation**
 
@@ -39,7 +39,7 @@ This exercise focuses on mastering the basics of Git commits by creating and man
    git commit -m "create yard and groceries lists"
    ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 🌱 **Step 6-7: Adding Content to Files**
 
@@ -58,7 +58,7 @@ This exercise focuses on mastering the basics of Git commits by creating and man
    - 1 fennel bulb
    ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 🥄 **Step 8-9: Selective Commits**
 
@@ -74,7 +74,7 @@ This exercise focuses on mastering the basics of Git commits by creating and man
    git commit -m "add items needed for garden box"
    ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 🥔 **Step 10-12: Final Modifications**
 
@@ -97,7 +97,7 @@ This exercise focuses on mastering the basics of Git commits by creating and man
     git commit -m "add items needed to grow potatoes"
     ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ### 📊 **Step 13: Verify Your Work**
 
@@ -107,7 +107,7 @@ This exercise focuses on mastering the basics of Git commits by creating and man
     git log 
     ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## ✅ Expected Results
 
@@ -118,6 +118,6 @@ After completing this exercise, you should have:
 - 🎯 **Experience** with selective staging and committing
 - 📝 **Practice** writing descriptive commit messages
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Remember:** This exercise demonstrates the power of Git's **selective staging** - you can choose exactly which changes to include in each commit! 🚀

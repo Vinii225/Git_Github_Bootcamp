@@ -5,7 +5,7 @@
 📅 **Date:** August 17, 2025  
 🎯 **Objective:** Master Git stash through workplace drama scenario with real commands
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📂 Part 1: Initial Setup & Professional Content
 
@@ -34,7 +34,7 @@ To https://github.com/Vinii225/Git-Github_Bootcamp
 
 **✅ Result:** Professional diary entry safely committed and pushed to remote
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🌿 Part 2: Truth Branch Creation & Honest Thoughts
 
@@ -62,7 +62,7 @@ Your branch is up to date with 'origin/main'.
 
 **⚠️ Crisis:** Uncommitted changes follow you to main branch! Boss might see!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📦 Part 3: Emergency Stash Operation
 
@@ -100,7 +100,7 @@ To https://github.com/Vinii225/Git-Github_Bootcamp
 
 **🎭 Boss Status:** Impressed with dedication and positive attitude!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🕵️ Part 4: Return to Truth & Stash Recovery
 
@@ -168,7 +168,7 @@ To https://github.com/Vinii225/Git-Github_Bootcamp
 
 **🎯 Final Success:** Truth branch created and pushed with honest thoughts!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Exercise Summary
 
@@ -207,6 +207,6 @@ This exercise demonstrates essential skills for:
 - **Experimental work** that needs temporary hiding
 - **Multi-tasking** in professional environments
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Success!** Mastered Git stash through workplace drama. These **emergency context switching** skills are essential for professional development! 🎭

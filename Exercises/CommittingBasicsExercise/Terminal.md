@@ -5,13 +5,13 @@
 👤 **Author:** Vinícius Ares  
 📧 **Email:** vinicius.ares12@gmail.com
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Exercise Overview
 
 This document shows the actual terminal commands executed during the Committing Basics Exercise, demonstrating selective staging and meaningful commit messages in practice.
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🥄 Step 1: Adding Groceries for Tomato Soup
 
@@ -33,7 +33,7 @@ git commit -m "add ingredients for tomato soup"
 - 📝 **Meaningful message** - Clearly describes what ingredients were added
 - 📊 **Git output** - Shows 1 file changed with 3 new lines
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🌱 Step 2: Adding Yard/Garden Items
 
@@ -55,7 +55,7 @@ git commit -m "add items needed for garden box"
 - 🎯 **Focused change** - Only garden-related modifications
 - 📊 **Git output** - Shows 1 file changed with 2 new lines
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🥔 Step 3: Adding Potato-Related Items (Both Files)
 
@@ -77,7 +77,7 @@ git commit -m "add items needed to grow potatoes"
 - 🥔 **Thematic grouping** - Both files related to potato growing
 - 📊 **Git output** - Shows 4 files changed (including Exercise.md creation)
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📊 Final Commit History
 
@@ -113,7 +113,7 @@ Date:   Thu Jul 31 06:42:24 2025 -0300
 - 🎯 **Clear progression** - Each commit builds on the previous one
 - 📝 **Descriptive messages** - Easy to understand what each commit contains
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎓 Key Learnings from This Session
 
@@ -123,7 +123,7 @@ Date:   Thu Jul 31 06:42:24 2025 -0300
 - 📊 **Git provides feedback** on every operation to confirm what happened
 - 🕐 **Timestamps** show when each change was made for project timeline tracking
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔧 Commands Used in This Session
 
@@ -134,6 +134,6 @@ git commit -m "message"             # Commit with message
 git log                             # View commit history
 ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Success!** This terminal session demonstrates the power of **thoughtful commits** and **selective staging** in real-world Git workflows! 🚀

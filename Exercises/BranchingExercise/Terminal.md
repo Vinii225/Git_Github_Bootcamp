@@ -6,13 +6,13 @@
 👤 **Author:** Vinícius Ares  
 📧 **Email:** vinicius.ares12@gmail.com
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Exercise Overview
 
 This document shows the actual terminal commands executed during the Branching Exercise, demonstrating branch creation, switching, and management with magical Harry Potter themes.
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📄 Step 1: Initial Commit - Empty Patronus File
 
@@ -34,7 +34,7 @@ git commit -m "add empty patronus file"
 - 📊 **Git output** - Shows file creation with no content changes
 - 🎯 **Clean baseline** - All branches will start from this point
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🌿 Step 2: Creating Multiple Branches
 
@@ -57,7 +57,7 @@ git branch
 - 🎯 **Current branch** - Asterisk (*) shows we're still on `main`
 - 📊 **Branch list** - Shows all available branches in alphabetical order
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🦌 Step 3: Harry's Stag Patronus Branch
 
@@ -82,7 +82,7 @@ Switched to branch 'harry'
 
 **Note:** First attempt with `git add patronus.txt` failed - needed full path!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🦌 Step 4: Snape's Doe Patronus Branch
 
@@ -105,7 +105,7 @@ Switched to branch 'snape'
 - 📝 **Different content** - 16 lines of doe ASCII art
 - 🎯 **Independent branch** - Completely different from `harry` branch
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🌸 Step 5: Lily's Doe Patronus Branch
 
@@ -129,7 +129,7 @@ Switched to branch 'lily'
 - ✏️ **Minor modification** - Only changed the title line
 - 📊 **Git output** - Shows 1 insertion, 1 deletion (title change)
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📊 Step 6: Final Branch Management
 
@@ -155,7 +155,7 @@ Deleted branch snape (was 5530835).
 - 🗑️ **Safe deletion** - Used `-d` flag to delete merged branch
 - 💀 **Poor Snape** - Branch successfully removed!
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎓 Key Learnings from This Session
 
@@ -165,7 +165,7 @@ Deleted branch snape (was 5530835).
 - 🎯 **Branch inheritance** - New branches inherit content from their parent
 - 🗑️ **Safe deletion** - Use `-d` for merged branches, `-D` for force delete
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔧 Commands Used in This Session
 
@@ -179,6 +179,6 @@ git commit -m "message"                  # Commit with message
 git branch -d branch-name                # Delete branch (safe)
 ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Success!** This terminal session demonstrates the magic of **Git branching** - multiple parallel development paths! ⚡✨

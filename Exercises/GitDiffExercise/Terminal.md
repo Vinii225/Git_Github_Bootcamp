@@ -5,7 +5,7 @@
 📅 **Date:** August 15, 2025  
 🎯 **Objective:** Master Git diff through hands-on practice with Queen and Fleetwood Mac repositories
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📂 Part 1: Repository Setup & Branch Navigation
 
@@ -51,7 +51,7 @@ branch '1970s' set up to track 'origin/1970s'.
 Switched to a new branch '1970s'
 ```
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🔍 Part 2: Git Diff Commands Practice
 
@@ -136,7 +136,7 @@ index f7f4a33..0e0fa0d 100644
 
 **✅ Result:** Shows the most recent change was updating the bass player
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## ✏️ Part 3: Working Directory & Staging Practice
 
@@ -218,7 +218,7 @@ index 0e0fa0d..5f562c1 100644
 
 **✅ Result:** Shows both staged (Queen) and unstaged (Fleetwood Mac) changes
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🎯 Exercise Summary
 
@@ -249,6 +249,6 @@ This exercise demonstrated how Git diff helps with:
 - **Feature development** - Comparing branch differences before merging
 - **History analysis** - Understanding project evolution over time
 
-<img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="../../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > **Success!** Mastered Git diff commands through practical band lineup scenarios. These skills are essential for professional development workflows! 🎸 
