@@ -107,7 +107,7 @@
 ```plaintext
 📦 Git-Github_Bootcamp/
 ├── 📄 .gitignore                        # Git ignore configuration
-├── 🎨 purple-divisor.svg                # Visual divider for documentation
+├── 🎨 purple-divisor.svg                # Visual divisor for documentation
 ├── 📄 README.md                         # This comprehensive guide
 │
 ├── 📁 Exercises/                        # Hands-on practice exercises
