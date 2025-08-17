@@ -105,10 +105,61 @@
 ## 📁 Repository Structure
 
 ```plaintext
-📦 Git-Github_Bootcamp
-├── 📄 README.md – This comprehensive guide
-├── 📄 MyNotes.md – Personal notes and insights
+📦 Git-Github_Bootcamp/
+├── 📄 .gitignore                        # Git ignore configuration
+├── 🎨 purple-divisor.svg                # Visual divider for documentation
+├── 📄 README.md                         # This comprehensive guide
+│
+├── 📁 Exercises/                        # Hands-on practice exercises
+│   ├── 🌿 BranchingExercise/
+│   │   ├── 📄 Exercise.md               # Branching practice guide
+│   │   ├── 📄 Terminal.md               # Command history & notes
+│   │   └── � Patronus/
+│   │       └── �📄 patronus.txt          # Exercise files
+│   │
+│   ├── 💾 CommittingBasicsExercise/
+│   │   ├── 📄 Exercise.md               # Basic Git workflow practice
+│   │   ├── 📄 Terminal.md               # Session documentation
+│   │   └── 📁 Shopping/
+│   │       ├── 📄 groceries.txt         # Exercise content
+│   │       └── 📄 yard.txt              # Exercise content
+│   │
+│   ├── 🔍 GitDiffExercise/
+│   │   ├── 📄 Exercise.md               # Diff commands practice
+│   │   ├── 📄 Terminal.md               # Workflow documentation
+│   │   └── 📁 git-diff-exercise/
+│   │       ├── 📄 fleetwoodmac.txt      # Sample files for diff
+│   │       └── 📄 queen.txt             # Sample files for diff
+│   │
+│   ├── 🔀 GitMergingExercise/
+│   │   ├── 📄 Exercise.md               # Merge practice scenarios
+│   │   ├── 📄 Terminal.md               # Command history
+│   │   └── 📁 Musics/
+│   │       └── 📄 rock.txt              # Merge conflict practice
+│   │
+│   ├── 🗃️ StashingExercise/
+│   │   ├── 📄 Exercise.md               # Stash workflow practice
+│   │   ├── 📄 Terminal.md               # Session notes
+│   │   └── 📁 Diary/
+│   │       └── 📄 diary.txt             # Practice content
+│   │
+│   └── ⏰ UndoingThingsExercise/
+│       ├── 📄 Exercise.md               # Time travel & recovery practice
+│       └── 📄 Terminal.md               # Command documentation
+│
+└── 📁 PersonalNotes/                    # Comprehensive learning notes
+    ├── 📄 Basics-Commits.md             # Git fundamentals & commit workflow
+    ├── 📄 Branches.md                   # Branching strategies & management
+    ├── 📄 GitDiff.md                    # Diff commands & comparison techniques
+    ├── 📄 Stash.md                      # Stashing workflow & best practices
+    └── 📄 UndoingChanges_TimeTraveling.md # Reset, revert, restore commands
 ```
+
+**📊 Repository Statistics:**
+- **6 Exercise Modules** with hands-on practice scenarios
+- **5 Personal Note Files** covering core Git concepts  
+- **12 Practice Files** for realistic Git workflow simulation
+- **Professional Documentation** with consistent formatting and visual elements
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
@@ -121,7 +172,6 @@
 - **Resolve conflicts** and handle complex scenarios.
 - **Use advanced Git features** like rebasing, stashing, and reflogs.
 - **Contribute to open source** projects professionally.
-- **Host static or dynamic websites** using GitHub Pages.
 - **Write professional documentation** with Markdown.
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
@@ -132,12 +182,6 @@
 - **Collaboration Projects** demonstrating real-world workflows
 - **Comprehensive Git Reference** with personal notes and examples
 - **Open Source Contributions** to practice professional development
-
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## 🧠 Goal
-
-> Master <span style="color: #8A2BE2;">**Git and GitHub**</span> to become confident in **version control**, **collaboration workflows**, and **professional development practices** used in the tech industry.
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
