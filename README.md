@@ -45,16 +45,16 @@
 - ✅ **Merge strategies** ← <span style="color: #8A2BE2;">*9 lessons • 56m*</span>
 
 ### � **8. Comparing Changes With Git Diff**
-- ❌ **Working directory vs. staging vs. commits**
-- ❌ **Comparing branches and commits** ← <span style="color: #8A2BE2;">*11 lessons • 53m*</span>
+- ✅ **Working directory vs. staging vs. commits**
+- ✅ **Comparing branches and commits** ← <span style="color: #8A2BE2;">*11 lessons • 53m*</span>
 
 ### 💾 **9. The Ins and Outs of Stashing**
-- ❌ **Stashing workflow** (`git stash`)
-- ❌ **Stash management and application** ← <span style="color: #8A2BE2;">*8 lessons • 35m*</span>
+- ✅ **Stashing workflow** (`git stash`)
+- ✅ **Stash management and application** ← <span style="color: #8A2BE2;">*8 lessons • 35m*</span>
 
 ### ⏰ **10. Undoing Changes & Time Traveling**
-- ❌ **Checkout, restore, reset, revert**
-- ❌ **Detached HEAD state** ← <span style="color: #8A2BE2;">*10 lessons • 59m*</span>
+- ✅ **Checkout, restore, reset, revert**
+- ✅ **Detached HEAD state** ← <span style="color: #8A2BE2;">*10 lessons • 59m*</span>
 
 ### 🐙 **11. Github: The Basics**
 - ❌ **GitHub account and repositories**
