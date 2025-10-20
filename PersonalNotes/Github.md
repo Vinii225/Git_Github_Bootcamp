@@ -17,6 +17,7 @@ git clone <url>                   # Clone a repository from URL
 ```
 
 **Important notes:**
+
 - 📂 **Make sure you're not inside a repo** before cloning
 - 🌍 **Works with any Git repo**, not just GitHub (GitLab, Bitbucket, etc.)
 - 📥 **Downloads complete history** of the project
@@ -30,7 +31,9 @@ git clone <url>                   # Clone a repository from URL
 Without SSH keys configured, GitHub will **prompt you every single time** for your username and password. Once configured, you can connect to GitHub without supplying credentials repeatedly.
 
 **Benefits:**
+
 - ✅ **No repeated login prompts**
+
 - 🔒 **More secure** than password authentication
 - ⚡ **Faster workflow** for frequent Git operations
 
@@ -42,13 +45,19 @@ Without SSH keys configured, GitHub will **prompt you every single time** for yo
 
 1. **Generate SSH key** (follow GitHub documentation)
 2. **Navigate to SSH directory:**
+
    ```bash
+
    cd ~/.ssh
    ```
+
 3. **Display public key:**
+
    ```bash
+
    cat id_rsa.pub              # View your public key
    ```
+
 4. **Add key to GitHub** account settings
 
 <img src="../purple-divisor.svg" width="100%" height="6" alt="Purple divider">
@@ -60,6 +69,7 @@ Without SSH keys configured, GitHub will **prompt you every single time** for yo
 If you **already have a local repo** and want to put it on GitHub:
 
 **Steps:**
+
 1. 🌐 **Create a new repo on GitHub** (don't initialize with README)
 2. 🔗 **Connect your local repo** (add a remote)
 3. 📤 **Push up your changes** to GitHub
@@ -74,6 +84,7 @@ git push -u origin main           # Push and set upstream
 If you **haven't begun work** on your local repo:
 
 **Steps:**
+
 1. 🌐 **Create a brand new repo on GitHub**
 2. 📥 **Clone it down** to your machine
 3. 💻 **Do some work locally**
@@ -110,6 +121,7 @@ git remote add origin <url>       # Standard: add origin remote
 ```
 
 **About "origin":**
+
 - 🏷️ **"origin"** is a **conventional name**, not special
 - 🎯 It's just a **name for a URL**
 - 📌 **Default remote name** when you clone
@@ -154,11 +166,13 @@ git push -u origin main           # Push AND set upstream tracking
 ```
 
 **What `-u` does:**
+
 - 🔗 **Sets upstream** of the branch you're pushing
 - 🎯 **Links your local branch** to a remote branch
 - ⚡ **Simplifies future pushes** - just type `git push`
 
 **Example:**
+
 ```bash
 # First time:
 git push -u origin main           # Set upstream and push
@@ -168,6 +182,7 @@ git push                          # Simply push (no args needed)
 ```
 
 **Benefits:**
+
 - 📌 **Tracks remote branch** automatically
 - 🚀 **Faster workflow** for regular pushes
 - 🎯 **Clear branch relationships** between local and remote
